@@ -1,0 +1,50 @@
+•{
+  box-sizing: border-box;
+}
+ 
+main{
+  background-image: url(bg-intro-desktop.png);
+  background-color:hsl(0, 100%, 74%) ;
+  width: 90%;
+  margin: auto;
+  height: 100%
+  display:flex;
+  flex-wrap: wrap;
+  padding:25px;
+}
+
+h3{
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 15px;
+}
+form{
+  padding: 15px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  }
+  
+  .left{
+    margin-left: 30px;
+    width:40%;
+  }
+  .reg{
+    margin-left: 30%;
+    width: 40%:
+  }
+#trial{
+  background-color: hsl(248, 32%, 49%);
+}
+#claim{
+  background-color: darkgreen;
+}
+input{
+  margin:4px;
+  padding:5px;
+}
